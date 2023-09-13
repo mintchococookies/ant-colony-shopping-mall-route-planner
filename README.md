@@ -14,7 +14,7 @@ and choosing to visit either the nearest shop in that department or all the shop
 ![Alt Text](https://github.com/mintchococookies/ant-colony-shopping-mall-route-planner/blob/main/mall-layout.PNG)
 
 ## Problem formulation
-1. **State Space**: The map of the mall, which is the state space for the problem, is depicted in Figure 1.1.2.
+1. **State Space**: The map of the mall depicted as a Matplotlib graph.
 2. **Initial State**: A user attempting to determine the shortest route to visit all the shops that he or she wishes to visit, beginning at a mall entrance and ending at the nearest door to exit.
 3. **Final State (Goal)**: The user takes the shortest total walking distance or passes through the fewest number of locations to visit all of the shops that he or she desires to visit.
 4. **States**: This is the arrangement of the locations in the mall which include shops, a lift, and an escalator. For example, Shop 1(100, 300, 1, 'Fashion') indicates that Shop 1 is a fashion shop located on the first floor at the x-coordinate of 100 and the y-coordinate of 300.
